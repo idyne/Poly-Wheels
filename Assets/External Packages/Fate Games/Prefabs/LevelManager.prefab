@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &576889031785371690
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 576889031785371688}
+  - component: {fileID: 6426594854444331286}
+  - component: {fileID: 821094847930969171}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &576889031785371688
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576889031785371690}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6426594854444331286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576889031785371690}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b86ca0fc2be3614c91db65ce4e3608a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &821094847930969171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576889031785371690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1432a5a5eca54c4c9ed04f24716756e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buildingPrefabs:
+  - {fileID: 4662084760436305229, guid: 3ef71e307ff793a42a1c5a188fc94063, type: 3}
+  - {fileID: 7597375261401666176, guid: d5fd81fc636f0254eb3f959c790dce6b, type: 3}
+  - {fileID: 3947197228691171664, guid: ca00028021b6b4848a92f445f89adae3, type: 3}
+  - {fileID: 2321021070778386706, guid: bddb5efc39bfe0b4081cc10387558413, type: 3}
+  - {fileID: 2321021070778386706, guid: bddb5efc39bfe0b4081cc10387558413, type: 3}
+  - {fileID: 3173461736379456396, guid: c85a3444c0612494e84d04215917e594, type: 3}
+  - {fileID: 4586222575998930334, guid: 46ae54656d5d42144b15d7b32ad7254d, type: 3}
+  raceTrackWidth: 15
+  roadLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  tireGradient:
+    serializedVersion: 2
+    key0: {r: 0.9, g: 0.26823527, b: 0.26823527, a: 1}
+    key1: {r: 0.26823527, g: 0.9, b: 0.26823527, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  botColors:
+  - {r: 1, g: 0, b: 0, a: 1}
+  - {r: 0.37484407, g: 0, b: 1, a: 1}
+  - {r: 0.73393774, g: 0, b: 1, a: 1}
+  - {r: 0.6983801, g: 1, b: 0, a: 1}
+  - {r: 0, g: 0.2271905, b: 1, a: 1}
+  - {r: 0.21888566, g: 1, b: 0, a: 1}
+  - {r: 0, g: 1, b: 0.35730076, a: 1}
+  - {r: 0.9056604, g: 0.27902448, b: 0.13243146, a: 1}
+  progressSlider: {fileID: 0}
+  progressBar: {fileID: 0}
+  rankText: {fileID: 0}
+  gemText: {fileID: 0}

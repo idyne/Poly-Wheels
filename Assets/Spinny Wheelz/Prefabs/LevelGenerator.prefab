@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1572891201672852910
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1572891201672852908}
+  - component: {fileID: 1572891201672852911}
+  m_Layer: 0
+  m_Name: LevelGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1572891201672852908
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572891201672852910}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1572891201672852911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572891201672852910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 113264f8efd59474198c18f13fd7a028, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  raceTrackLength: 5000
+  roadParent: {fileID: 0}
+  rampParent: {fileID: 0}
+  ringParent: {fileID: 0}
+  bonusParent: {fileID: 0}
+  finishLineParent: {fileID: 0}
+  buildingGroupParent: {fileID: 0}
+  gemParent: {fileID: 0}
+  roadPrefab: {fileID: 8128590129569984158, guid: 693225d36675d5d46b71461da23bc67e, type: 3}
+  rampPrefab: {fileID: 5274430698853848192, guid: f844c2813014a9d4c855e6da6d90bbe6, type: 3}
+  ringPrefab: {fileID: 8441033383296188553, guid: f4ef7f241f75a3f4b8d13f70155a96be, type: 3}
+  bonusPrefab: {fileID: 2712137788821592963, guid: 2ac2792a98e76884790d2edf1c3cbcbb, type: 3}
+  finishLinePrefab: {fileID: 1337812039497622170, guid: 0fdb22304615a234fb167ae8d852198e, type: 3}
+  buildingGroupPrefab: {fileID: 5057401410190124215, guid: 042e708027040494da5ff7a0693c2294, type: 3}
+  gemPrefab: {fileID: 5359892430574747944, guid: 53c04003c7e324f47815c261e92d08f3, type: 3}
